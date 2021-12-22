@@ -1,9 +1,9 @@
 
-public class Calculate implements Runnable{
+public class CalculateThread extends Thread{
 	private int s,t;
 	public int sum;
 	
-	public Calculate(int s,int t) {
+	public CalculateThread(int s,int t) {
 		// TODO Auto-generated constructor stub
 		this.s=s;
 		this.t=t;
